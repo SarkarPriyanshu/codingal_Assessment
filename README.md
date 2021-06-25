@@ -133,3 +133,11 @@ List of user props is send to users component where I had map over it and return
 Details:
 
 In details I take that Store selectedUser value and render it.
+
+## Code-Lacking
+
+Responsive:
+
+I had added two end points first one is 768px and another one is 320px althought it might not work on various devices where the resolution of device is as like as laptop.
+
+If you know how to resolve this problem a solution will be great feedback for me or any feedback will be great for me.
