@@ -39,6 +39,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+### `npm run compile:sass`
+
+**Note: this is a added script to compile sass into css file!**
+
+It simply compile the sass into css which is attached to index.js.
+
+All the basic setting are in base folder inside Sass file,typography is inside typography file inside Sass/base folder.The styling related to a component is created seperately so we can find a particular styling easily.
+
+you can start the compilation using npm run compile:sass command.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
@@ -65,6 +75,40 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+### dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Redux:
+
+**Note:**
+
+Using Redux we created a basic structure where an Action Creators dispatch the action of fetch-data to dispatch the action, That later on fetch the data and set the response into a Store. What is store? Store is a centralized state that can store states of an application.
+
+Action Creator --> Action --> Reducer --> Store
+
+React-Redux:
+
+**Note:**
+
+React-Redux is an npm package to connect the redux store and help us to retrieve the states out of the redux store.
+
+React-Redux give back Provider and connect methods that help us to connect and retrieve values.
+
+Redux-thunk:
+
+**Note:**
+
+React-Thunk is an npm package that allow us to do asynchronous task inside the redux.
+
+React-thunk allow us to return a function instead of an object from a action creator.
+
+Redux-logger:
+
+**Note:**
+
+React-Logger is an npm package that helps us to debug the redux code make it easy to see that is going on inside the redux world.
+
+Node-Sass:
+
+**Note:**
+
+Node-sass make easy to write css in a better way by compiling it for us and generate a clean css.
