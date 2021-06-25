@@ -75,7 +75,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### dependencies
+## Dependencies
 
 Redux:
 
@@ -112,3 +112,24 @@ Node-Sass:
 **Note:**
 
 Node-sass make easy to write css in a better way by compiling it for us and generate a clean css.
+
+## Features
+
+Loading: A simple loading component that shows the loading status.
+
+Error-handler: A component that shows the error response.
+
+## Code-Architecture
+
+App.js:
+
+here I had connect my redux with react and using react-redux i had retrived the default state from redux store and convert those state into
+props and send those props to related components.
+
+Users:
+
+List of user props is send to users component where I had map over it and return and structure of list.Each component have a onClick event handler that take that particlar clicked user and send it to redux store. Where it store that user into a variable called selectedUser
+
+Details:
+
+In details I take that Store selectedUser value and render it.

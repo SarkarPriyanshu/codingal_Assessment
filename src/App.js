@@ -31,7 +31,6 @@ class App extends React.Component {
           <>
             <div className="error-container">
               <h1>Something went wrong !!</h1>
-              <h3>Error: {error}</h3>
             </div>
           </>
         ) : loading ? (
