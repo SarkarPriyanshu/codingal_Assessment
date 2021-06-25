@@ -1,0 +1,204 @@
+.header-nav {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5.4rem; }
+
+@media only screen and (max-width: 321px) {
+  .header-nav {
+    margin-bottom: 4.4rem; } }
+
+.details-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0px 10px 30px 0px #0000001a;
+  border-radius: 1.6rem;
+  padding: 2.6rem 1rem; }
+  .details-container .details-avatar {
+    width: 30%;
+    width: 12.8rem;
+    height: 12.8rem; }
+    .details-container .details-avatar img {
+      width: 100%;
+      height: 100%;
+      border-radius: 12rem; }
+  .details-container .details-info {
+    width: 60%;
+    text-align: left; }
+    .details-container .details-info h1 {
+      margin-bottom: 0.9rem;
+      font-size: 5.4rem;
+      color: #e16259;
+      letter-spacing: -1.85px;
+      text-decoration-line: underline;
+      line-height: 100%; }
+    .details-container .details-info p {
+      font-size: 1.5rem; }
+      .details-container .details-info p small {
+        margin: 0.5rem 0;
+        display: block;
+        color: #bbb; }
+
+@media only screen and (max-width: 769px) {
+  .details-container .details-avatar {
+    width: 30%;
+    width: 12rem;
+    height: 12rem; }
+    .details-container .details-avatar img {
+      width: 100%;
+      height: 100%;
+      border-radius: 12rem; }
+  .details-container .details-info {
+    width: 60%;
+    text-align: left; }
+    .details-container .details-info h1 {
+      font-size: 3.4rem; }
+    .details-container .details-info p {
+      font-size: 1.3rem; } }
+
+@media only screen and (max-width: 321px) {
+  .details-container {
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .details-container .details-avatar {
+      width: 30%;
+      width: 12rem;
+      height: 12rem; }
+      .details-container .details-avatar img {
+        width: 100%;
+        height: 100%;
+        border-radius: 12rem; }
+    .details-container .details-info {
+      width: 60%;
+      text-align: left; }
+      .details-container .details-info h1 {
+        margin: 1.3rem 0;
+        text-align: center;
+        font-size: 2.4rem; }
+      .details-container .details-info p {
+        margin: 0.3rem 0;
+        text-align: center;
+        font-size: 1rem; } }
+
+.users-container {
+  margin-top: 12rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; }
+  .users-container .user {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 16px;
+    width: 282px;
+    height: 110px;
+    background: #ffffff;
+    /* Medium Shadow */
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 1rem; }
+    .users-container .user > h2 {
+      margin: 0.2rem 0 0.3rem 0; }
+    .users-container .user > p {
+      left: 5.67%;
+      right: 17.38%;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 150%;
+      /* identical to box height, or 22px */ }
+    .users-container .user .user-gender {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.4rem;
+      line-height: 150%;
+      /* identical to box height, or 21px */ }
+    .users-container .user:hover {
+      cursor: pointer; }
+
+@media only screen and (max-width: 769px) {
+  .users-container {
+    justify-content: space-around; } }
+
+.error-container,
+.loading-container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
+body {
+  background-color: #e5e5e5; }
+
+.App {
+  width: 90%;
+  margin: 0 auto; }
+
+body {
+  font-family: "Roboto", sans-serif; }
+
+.brand-logo {
+  width: 15.8rem;
+  height: 3.5rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 145%; }
+  .brand-logo a {
+    color: #000000;
+    text-decoration: none; }
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+  ul li {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.55rem;
+    font-style: normal;
+    margin: 0 0.8rem;
+    list-style-type: none;
+    border-bottom: 1px solid transparent; }
+    ul li:hover {
+      border-bottom: 0.1rem solid #e16259; }
+
+@media only screen and (max-width: 321px) {
+  .brand-logo {
+    font-size: 2rem;
+    height: auto; }
+    .brand-logo a {
+      color: #000000;
+      text-decoration: none; }
+  ul li {
+    font-size: 1.3rem; } }
