@@ -9,13 +9,11 @@ details (at the top of the page) should be updated with the details of the newly
 selected person.
 
 Design:
-https://www.figma.com/file/MuDp24Ezz4hJi2XoO4IIAt/Kawa-Space-Frontend-Inte
-rn-Challenge?node-id=0%3A1
+https://www.figma.com/file/MuDp24Ezz4hJi2XoO4IIAt/Kawa-Space-Frontend-Intern-Challenge?node-id=0%3A1
 
 Data Source:
 
-https://randomuser.me/api/?inc=gender,name,nat,location,picture,email&results=
-20
+https://randomuser.me/api/?inc=gender,name,nat,location,picture,email&results=20
 
 ## Available Scripts
 
