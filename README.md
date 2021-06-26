@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Problem Statement
 
+<img src='https://github.com/SarkarPriyanshu/Kawa_Space/blob/main/public/Screenshot.png?raw=true'/>
+
 The page is a directory of people and by clicking on a person’s card, the user
 details (at the top of the page) should be updated with the details of the newly
 selected person.
