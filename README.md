@@ -2,6 +2,21 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Problem Statement
+
+The page is a directory of people and by clicking on a person’s card, the user
+details (at the top of the page) should be updated with the details of the newly
+selected person.
+
+Design:
+https://www.figma.com/file/MuDp24Ezz4hJi2XoO4IIAt/Kawa-Space-Frontend-Inte
+rn-Challenge?node-id=0%3A1
+
+Data Source:
+
+https://randomuser.me/api/?inc=gender,name,nat,location,picture,email&results=
+20
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -48,32 +63,6 @@ It simply compile the sass into css which is attached to index.js.
 All the basic setting are in base folder inside Sass file,typography is inside typography file inside Sass/base folder.The styling related to a component is created seperately so we can find a particular styling easily.
 
 you can start the compilation using npm run compile:sass command.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ## Dependencies
 
