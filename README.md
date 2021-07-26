@@ -6,6 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 <p align='center'></p>
 
+Assessment Part-1:
+https://sarkarpriyanshu.github.io/codingal_Assessment/
+
+Assessment Part-2:
+https://codesandbox.io/s/infinite-scroll-ckj8g
+
 Design:
 1. Create a responsive navbar. The navbar should have the following representation:
 ● Normal view:
