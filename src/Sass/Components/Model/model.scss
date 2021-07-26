@@ -1,0 +1,33 @@
+.model-outer-container {
+  position: absolute;
+  @include flex-box(row, center, center);
+  background-color: rgba(0, 0, 0, 0.309);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.end-class-model {
+  @include flex-box(column, center, flex-start);
+  position: relative;
+  width: 30%;
+  padding: 3rem 4rem;
+  border-radius: 0.3rem;
+  background-color: #fff;
+}
+
+.model-radio-section {
+  padding: 1rem 0;
+}
+
+.model-btn-container {
+  @include flex-box(row, center, center);
+}
+
+@media only screen and (max-width: 361px) {
+  .end-class-model {
+    width: 70%;
+    padding: 2rem 3rem;
+  }
+}

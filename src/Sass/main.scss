@@ -1,9 +1,14 @@
-//Components
-@import "./Components/header-nav.scss";
-@import "./Components/details.scss";
-@import "./Components/users.scss";
-@import "./Components/loading.scss";
+//Abstracts
+@import "./Abstract/mixins";
+@import "./Abstract/variables";
+@import "./Abstract/placeholders";
 
 //Base
 @import "./Base/base.scss";
 @import "./Base/typography.scss";
+
+//Components
+@import "./Components/Navbar/Navbar.scss";
+@import "./Components/button/btn.scss";
+@import "./Components/Model/model.scss";
+@import "./Components/Model/radio.scss";

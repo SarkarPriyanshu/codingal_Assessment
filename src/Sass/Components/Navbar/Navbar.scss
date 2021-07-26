@@ -1,0 +1,82 @@
+.navbar-container {
+  @include flex-box(row, center, center);
+  width: 80%;
+  margin: 0 auto;
+  padding: 0.5rem;
+
+  & .hamburger {
+    display: none;
+  }
+}
+.navbar-brandlogo {
+  width: 5%;
+  padding: 0 0.2rem;
+  border-right: 0.14rem solid #ddd;
+
+  & .mobile-logo {
+    display: none;
+  }
+
+  .desktop-logo {
+    display: block;
+  }
+}
+
+.navbar-content {
+  width: 95%;
+  @include flex-box(row, space-between, center);
+  text-align: start;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+
+  & .content {
+    width: 85%;
+    @include flex-box(row, space-between, center);
+  }
+
+  & .btn-container {
+    width: 10%;
+  }
+}
+
+@media only screen and (max-width: 361px) {
+  .navbar-container {
+    @include flex-box(row, space-between, center);
+    width: 95%;
+    margin: 0 auto;
+    padding: 0.5rem;
+
+    & .hamburger {
+      display: block;
+      color: $secondary-color;
+      font-size: 2rem;
+    }
+  }
+  .navbar-brandlogo {
+    width: 5%;
+    padding: 0 0.2rem;
+    border-right: 0.14rem solid #ddd;
+
+    .desktop-logo {
+      display: none;
+    }
+
+    & .mobile-logo {
+      display: block;
+    }
+  }
+
+  .navbar-content {
+    visibility: hidden;
+    position: relative;
+    top: 5rem;
+    & .content {
+      width: 75%;
+      @include flex-box(row, space-between, center);
+    }
+
+    & .btn-container {
+      width: 12%;
+    }
+  }
+}

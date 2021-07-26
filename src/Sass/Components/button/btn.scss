@@ -1,0 +1,100 @@
+.btn {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  background-color: $primary-color;
+  color: #fff;
+  border: 0.1rem solid transparent;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.3rem;
+  font-size: 1.1rem;
+  font-weight: 300;
+
+  &:hover {
+    background-color: #fff;
+    color: $primary-color;
+    border: 0.1rem solid $primary-color;
+  }
+
+  &:active {
+    @extend %btn-placeholder-active;
+  }
+}
+
+.end {
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  margin-right: 0.5rem;
+}
+
+.btn-close {
+  cursor: pointer;
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+  background-color: transparent;
+  border: 0.1rem solid transparent;
+  color: $secondary-color;
+}
+
+.btn-cancel {
+  cursor: pointer;
+  background-color: transparent;
+  color: $secondary-color;
+  border: none;
+  padding: 0.5rem 2rem;
+
+  &:active {
+    @extend %btn-placeholder-active;
+  }
+}
+
+.hamburger-btn {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+@media only screen and (max-width: 361px) {
+  .btn {
+    padding: 0.4rem 1.2rem;
+    margin-left: 0.5rem;
+    font-size: 0.5rem;
+
+    &:hover {
+      background-color: #fff;
+      color: $primary-color;
+      border: 0.1rem solid $primary-color;
+    }
+  }
+
+  .end {
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    margin-right: 0.5rem;
+  }
+
+  .btn-close {
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    background-color: transparent;
+    border: 0.1rem solid transparent;
+    color: $secondary-color;
+  }
+
+  .btn-cancel {
+    cursor: pointer;
+    background-color: transparent;
+    color: $secondary-color;
+    border: none;
+    padding: 0.5rem 2rem;
+  }
+
+  .hamburger-btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+  }
+}

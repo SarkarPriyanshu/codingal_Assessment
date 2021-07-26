@@ -1,6 +1,8 @@
 import { combineReducers } from "redux";
-import fetchData_Reducer from "./fetchdata.reducer";
+import BasicHandler from "../Reducers/BasicHandlers.Reducer/BasicHandlers.Reducer";
 
-const Reducer = combineReducers({ data: fetchData_Reducer });
+const Reducer = combineReducers({
+  BasicHandler: BasicHandler,
+});
 
 export default Reducer;
