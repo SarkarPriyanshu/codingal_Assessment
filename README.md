@@ -4,20 +4,21 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Problem Statement
 
-<p align='center'>
-<img src='https://github.com/SarkarPriyanshu/Kawa_Space/blob/main/public/Screenshot.png?raw=true'/>
-</p>
-
-The page is a directory of people and by clicking on a person’s card, the user
-details (at the top of the page) should be updated with the details of the newly
-selected person.
+<p align='center'></p>
 
 Design:
-https://www.figma.com/file/MuDp24Ezz4hJi2XoO4IIAt/Kawa-Space-Frontend-Intern-Challenge?node-id=0%3A1
-
-Data Source:
-
-https://randomuser.me/api/?inc=gender,name,nat,location,picture,email&results=20
+1. Create a responsive navbar. The navbar should have the following representation:
+● Normal view:
+● Mobile view:
+2. The navbar should have a countdown timer which should start at 10 minutes.
+3. The navbar should have an end class button, if a user clicks on it, a modal will open
+and should work as in this video: Link of the video
+4. When the user clicks the ‘End Class’ button in the modal, the modal should be closed
+and the timer should stop in the navbar.
+5. If the user clicks on the ‘Cancel button’ in the modal, the modal should close and the
+timer should keep running.
+6. The whole layout should be mobile responsive.
+7. Think and implement the dropdown which should open when the 
 
 ## Available Scripts
 
@@ -69,6 +70,10 @@ you can start the compilation using npm run compile:sass command.
 ## Dependencies
 
 Redux:
+Redux-Thunk:
+Redux-Logger:
+React-icons:
+Node-SASS:
 
 **Note:**
 
