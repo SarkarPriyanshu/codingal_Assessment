@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/codingal_Assessment/static/css/main.c6dca126.chunk.css",
-    "main.js": "/codingal_Assessment/static/js/main.a7931569.chunk.js",
-    "main.js.map": "/codingal_Assessment/static/js/main.a7931569.chunk.js.map",
-    "runtime-main.js": "/codingal_Assessment/static/js/runtime-main.99a8e680.js",
-    "runtime-main.js.map": "/codingal_Assessment/static/js/runtime-main.99a8e680.js.map",
-    "static/js/2.43182900.chunk.js": "/codingal_Assessment/static/js/2.43182900.chunk.js",
-    "static/js/2.43182900.chunk.js.map": "/codingal_Assessment/static/js/2.43182900.chunk.js.map",
+    "main.js": "/codingal_Assessment/static/js/main.8301ceb5.chunk.js",
+    "main.js.map": "/codingal_Assessment/static/js/main.8301ceb5.chunk.js.map",
+    "runtime-main.js": "/codingal_Assessment/static/js/runtime-main.93b6db6e.js",
+    "runtime-main.js.map": "/codingal_Assessment/static/js/runtime-main.93b6db6e.js.map",
+    "static/js/2.e4fa741d.chunk.js": "/codingal_Assessment/static/js/2.e4fa741d.chunk.js",
+    "static/js/2.e4fa741d.chunk.js.map": "/codingal_Assessment/static/js/2.e4fa741d.chunk.js.map",
     "index.html": "/codingal_Assessment/index.html",
     "static/css/main.c6dca126.chunk.css.map": "/codingal_Assessment/static/css/main.c6dca126.chunk.css.map",
-    "static/js/2.43182900.chunk.js.LICENSE.txt": "/codingal_Assessment/static/js/2.43182900.chunk.js.LICENSE.txt"
+    "static/js/2.e4fa741d.chunk.js.LICENSE.txt": "/codingal_Assessment/static/js/2.e4fa741d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.99a8e680.js",
-    "static/js/2.43182900.chunk.js",
+    "static/js/runtime-main.93b6db6e.js",
+    "static/js/2.e4fa741d.chunk.js",
     "static/css/main.c6dca126.chunk.css",
-    "static/js/main.a7931569.chunk.js"
+    "static/js/main.8301ceb5.chunk.js"
   ]
 }
