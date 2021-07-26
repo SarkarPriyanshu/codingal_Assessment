@@ -6,6 +6,7 @@ import { BiMenu } from "react-icons/bi";
 import { HandleHamburger } from "../../Redux/ActionCreators/BasicActions.Creators/HandleHamburger.ActionCreator";
 
 function Navbar(props) {
+  // deconstructing the props that are coming from redux store
   const { handleHamberger } = props;
   const handleClick = () => {
     handleHamberger();
@@ -27,10 +28,12 @@ function Navbar(props) {
   );
 }
 
+// Mapping the redux default state to props
 const mapStateToProps = (state) => {
   return state.BasicHandler;
 };
 
+// Dispatcher that take the action creator and dispatch it to reducers
 const mapDispatchToProps = (dispatch) => {
   return {
     handleHamberger: () => dispatch(HandleHamburger()),

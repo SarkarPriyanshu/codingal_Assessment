@@ -3,11 +3,13 @@ import { connect } from "react-redux";
 import { StartTimer } from "../../Redux/ActionCreators/MainActions.Creators/StartTimer.ActionCreator";
 
 const Timer = (props) => {
+  // deconstructing the props that are coming from redux store
   const {
     handler: { timer, isTimerOn },
     startTime,
   } = props;
 
+  // Side Effect
   useEffect(() => {
     startTime();
   }, [isTimerOn]);
@@ -22,12 +24,14 @@ const Timer = (props) => {
   );
 };
 
+// Mapping the redux default state to props
 const mapStateToProps = (state) => {
   return {
     handler: state.BasicHandler,
   };
 };
 
+// Dispatcher that take the action creator and dispatch it to reducers
 const mapDispatchToProps = (dispatch) => {
   return {
     startTime: () => dispatch(StartTimer()),

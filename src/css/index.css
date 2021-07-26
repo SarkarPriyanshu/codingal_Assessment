@@ -71,7 +71,7 @@ h2 {
   .navbar-content .btn-container {
     width: 10%; }
 
-@media only screen and (max-width: 361px) {
+@media only screen and (max-width: 375px) {
   .navbar-container {
     display: flex;
     flex-direction: row;
@@ -147,7 +147,7 @@ h2 {
   background-color: transparent;
   border: none; }
 
-@media only screen and (max-width: 361px) {
+@media only screen and (max-width: 375px) {
   .btn {
     padding: 0.4rem 1.2rem;
     margin-left: 0.5rem;
@@ -211,7 +211,7 @@ h2 {
   justify-content: center;
   align-items: center; }
 
-@media only screen and (max-width: 361px) {
+@media only screen and (max-width: 375px) {
   .end-class-model {
     width: 70%;
     padding: 2rem 3rem; } }

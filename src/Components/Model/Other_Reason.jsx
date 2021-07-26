@@ -95,12 +95,14 @@ function Other_Reason(props) {
   );
 }
 
+// Mapping the redux default state to props
 const mapStateToProps = (state) => {
   return {
     handler: state.BasicHandler.handlers,
   };
 };
 
+// Dispatcher that take the action creator and dispatch it to reducers
 const mapDispatchToProps = (dispatch) => {
   return {
     handleTextarea: () => dispatch(HandleOtherReason()),

@@ -8,7 +8,7 @@ const defaultState = {
     close: true, //to open and close the model section
     accordian: false, //to open the accordian
     textarea: false, //to open the textarea
-    hamburger: window.innerWidth >= 361 ? true : false, //to open and close the hambermenu
+    hamburger: window.innerWidth >= 375 ? true : false, //to open and close the hambermenu
   },
 };
 
